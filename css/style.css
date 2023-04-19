@@ -97,4 +97,8 @@ header .image-text .header-text {
     height: 25px;
     width: 25px;
     background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
