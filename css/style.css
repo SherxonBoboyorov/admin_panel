@@ -101,4 +101,6 @@ header .image-text .header-text {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    color: var(--sidebar-color);
+    font-style: 22px;
 }
