@@ -29,6 +29,7 @@
 body {
     height: 100vh;
     background: var(--body-color);
+    transition: var(--tran-04);
 }
 
 
@@ -43,13 +44,18 @@ body.dark{
 /* ======  sidebar  ====== */
 
 .sidebar {
-    position:  absolute;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    padding: 10px 14px;
     width: 250px;
+    padding: 10px 14px;
     background: var(--sidebar-color);
+    transition: var(--tran-05);
+}
+
+.sidebar.close {
+    width: 88px;
 }
 
 /* ======  Resuable CSS  ====== */
@@ -58,6 +64,11 @@ body.dark{
     font-size: 16px;
     font-weight: 500;
     color: var(--text-color);
+    transition: var(--tran-04);
+}
+
+.sidebar.close .text{
+    opacity: 0;
 }
 
 .sidebar .image {
